@@ -8,9 +8,9 @@ public class StringCalculator {
         }
 
 
-        String[] numArray = numbers.split("[,\n]"); // Modify as needed for delimiters
+        String[] numArray = numbers.split("[,\n]");
         int sum = 0;
-        List<String> negatives = new ArrayList<>();
+        List<String> negatives = new ArrayList<>(); //for negative not added
 
         for (String num : numArray) {
             if (!num.isEmpty()) {
