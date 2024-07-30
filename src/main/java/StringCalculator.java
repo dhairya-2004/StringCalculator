@@ -4,7 +4,7 @@ public class StringCalculator {
             return 0;
         }
 
-        String[] numArray = numbers.split(",");
+        String[] numArray = numbers.split(","); //if string contains comma
         int sum = 0;
         for (String num : numArray) {
             sum += Integer.parseInt(num);
